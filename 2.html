@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+  <title>WEB1 - CSS</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="color.js"></script>
+  <meta charset="utf-8">
+  <!--
+  <link rel="stylesheet" href="style.css">
+-->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158609299-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-158609299-1');
+  </script>
+</head>
+<body>
+  <h1><a href="index.html">WEB</a></h1>
+  <input id="night_day" type="button" value="night" onclick="
+      nightDayHandler(this);
+    ">
+    <ol>
+  <li><a href="1.html">HTML</a></li>
+  <li><a href="2.html">CSS</a></li>
+  <li><a href="3.html">JavaScript</a></li>
+</ol>
+<!--
+  <h1><a href="index.html"><font color="red">WEB</font></a></h1>
+<ol>
+  <li><a href="1.html"><font color="red">HTML</font></a></li>
+  <li><a href="2.html"><font color="red">CSS</font></a>></li>
+  <li><a href="3.html"><font color="red">JavaScript</font></a></li>
+</ol>
+-->
+  <div id="article">
+  <h2>CSS</h2>
+  <p>Classes and IDs are case-sensitive, start with letters, and can include alphanumeric characters, hyphens and underscores. A class may apply to any number of instances of any elements. An ID may only be applied to a single element.
+    Pseudo-classes are used in CSS selectors to permit formatting based on information that is not contained in the document tree. One example of a widely used pseudo-class is :hover, which identifies content only when the user "points to" the visible element, usually by holding the mouse cursor over it. It is appended to a selector as in a:hover or #elementid:hover. A pseudo-class classifies document elements, such as :link or :visited, whereas a pseudo-element makes a selection that may consist   of partial elements, such as ::first-line or ::first-letter.[6]
+  </p>
+  </div>
+</div>
+<p>
+  <div id="disqus_thread"></div>
+  <script>
+
+  /**
+  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+  /*
+  var disqus_config = function () {
+  this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+  this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+  };
+  */
+  (function() { // DON'T EDIT BELOW THIS LINE
+  var d = document, s = d.createElement('script');
+  s.src = 'https://web1-fwx5g9yeji.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+</p>
+</body>
+</html>
